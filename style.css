@@ -39,3 +39,46 @@ form button:hover {
     background-color: rgb(3, 96, 96);
     color: white;
 }
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo {
+    margin: 0.5rem;
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo li {
+    flex: 1;
+}
+
+.delete-btn, .complete-btn {
+    background-color: rgb(3, 96, 96);
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.complete-btn {
+    background-color: green;
+}
+
+.todo-item {
+    padding: 0rem 0.5rem;
+}
