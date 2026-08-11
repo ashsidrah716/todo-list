@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
+html {
+    overscroll-behavior: none;
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: linear-gradient(140deg, rgb(3, 96, 96), #5d75e0);
     color: white;
     font-family: "Ubuntu", sans-serif;
     min-height: 100vh;
+    width: 100%;
 }
 
 header {
@@ -74,6 +80,15 @@ form button:hover {
     padding: 0.5rem;
     cursor: pointer;
     font-size: 0.8rem;
+    transition: all ease 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: red;
+}
+
+.complete-btn:hover {
+    background-color: rgb(4, 255, 0);
 }
 
 .complete-btn {
