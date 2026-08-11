@@ -20,7 +20,7 @@ A simple Todo List webpage built with HTML, CSS, and JavaScript.
 
 ## Screenshot
 
-Coming soon.
+![Todo List](todo-list.png)
 
 ## What I Learned
 
